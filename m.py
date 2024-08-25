@@ -11,7 +11,7 @@ keep_alive()
 bot = telebot.TeleBot('7366095262:AAGDmphOW8ZE7VPElAqMi5j9E6prP-_hbbo')
 
 # Admin user IDs
-admin_id = ["907345225"]
+admin_id = ["6678315655"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -48,7 +48,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["907345225"]
+    admin_id = ["6678315655"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
